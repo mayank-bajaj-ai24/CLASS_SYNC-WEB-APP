@@ -145,4 +145,3 @@ Contributions, issues, and feature requests are welcome.
 
 This project is open‑source.  
 You’re free to clone, learn from it, and adapt it for your own academic or personal projects.
-```
