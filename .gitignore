@@ -1,0 +1,19 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Env files (very important)
+.env
+.env.*
+classsync-backend/.env
+classsync-frontend/.env
+
+# Builds
+classsync-frontend/build/
+classsync-frontend/dist/
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
