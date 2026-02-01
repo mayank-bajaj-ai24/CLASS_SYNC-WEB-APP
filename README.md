@@ -1,7 +1,7 @@
 # CLASS_SYNC – Smart Classroom Attendance & Scheduling
 
 A full‑stack web application that helps colleges **automate attendance, timetables, and student notifications**.  
-Built as a production‑style project using a modern MERN stack architecture. [web:1179][web:1180]
+Built as a production‑style project using a modern MERN stack architecture.
 
 ---
 
@@ -12,7 +12,7 @@ Built as a production‑style project using a modern MERN stack architecture. [w
 - **Low‑attendance alerts** – Background jobs auto‑calculate attendance and send notifications when a student drops below a threshold.
 - **Timetable & class reminders** – Manage weekly timetables; students receive reminders for classes starting soon.
 - **Notifications center** – In‑app notifications for attendance warnings, upcoming classes, and other events.
-- **Secure authentication** – Bcrypt password hashing and JWT‑based login for both students and teachers. [web:1186][web:1192]
+- **Secure authentication** – Bcrypt password hashing and JWT‑based login for both students and teachers. 
 
 ---
 
@@ -23,7 +23,7 @@ Built as a production‑style project using a modern MERN stack architecture. [w
 | Frontend | React, Vite, JavaScript, CSS                        |
 | Backend  | Node.js, Express.js, Mongoose                       |
 | Database | MongoDB (local for dev, MongoDB Atlas for deploy)   |
-| Other    | JSON Web Tokens (JWT), bcrypt, node‑cron            | [web:1186][web:1192]
+| Other    | JSON Web Tokens (JWT), bcrypt, node‑cron            | 
 
 ---
 
@@ -66,7 +66,7 @@ Create a `.env` file (based on `.env.example`):
 
 ```env
 PORT=4000
-MONGO_URI=mongodb://127.0.0.1:27017/classsync    # or your Atlas URI
+MONGO_URI=mongodb://127.0.0.1:27017/classsync    
 JWT_SECRET=classsync-secret
 ```
 
@@ -109,14 +109,14 @@ Backend (`classsync-backend/.env`):
 
 - `PORT` – Port for the Express server (default `4000`)
 - `MONGO_URI` – MongoDB connection string (local or Atlas)
-- `JWT_SECRET` – Secret key for signing JWT tokens [web:1098][web:1102]
+- `JWT_SECRET` – Secret key for signing JWT tokens
 
 Frontend (`classsync-frontend/.env`):
 
 - `VITE_API_BASE_URL` – Base URL for the backend API
 
 > **Note:** `.env` files are intentionally **not** committed.  
-> Use the provided `.env.example` files as a reference. [web:1152][web:1156]
+> Use the provided `.env.example` files as a reference. 
 
 ---
 
@@ -125,7 +125,7 @@ Frontend (`classsync-frontend/.env`):
 - Admin role for managing departments, semesters, and sections.
 - Exportable attendance reports (CSV / PDF).
 - Analytics dashboard for teachers and admins.
-- Mobile‑first UI polish and PWA support. [web:1179][web:1181]
+- Mobile‑first UI polish and PWA support. 
 
 ---
 
@@ -137,7 +137,7 @@ Contributions, issues, and feature requests are welcome.
 2. Create a feature branch: `git checkout -b feature/my-feature`  
 3. Commit your changes: `git commit -m "Add my feature"`  
 4. Push to the branch: `git push origin feature/my-feature`  
-5. Open a Pull Request [web:1180][web:1181]
+5. Open a Pull Request 
 
 ---
 
