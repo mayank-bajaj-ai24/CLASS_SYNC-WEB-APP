@@ -1,4 +1,3 @@
-```markdown
 # CLASS_SYNC – Smart Classroom Attendance & Scheduling
 
 A full‑stack web application that helps colleges **automate attendance, timetables, and student notifications**.  
